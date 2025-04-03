@@ -1,5 +1,5 @@
-#define BLYNK_TEMPLATE_ID "TMPL60NoeYfmB"
-#define BLYNK_TEMPLATE_NAME "Warning gas"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
 
 #include <WiFi.h>
 #include <LiquidCrystal_I2C.h>
@@ -11,9 +11,9 @@
 BlynkTimer timer;
 
 // Thông tin WiFi và Blynk
-char auth[] = "rC3DC9nAilffXV_agAJRbduzg7_Ovmj_";
-char ssid[] = "Tein";
-char pass[] = "23052004";
+char auth[] = "your_blynk_auth";
+char ssid[] = "your_name_wifi";
+char pass[] = "your_password_wifi";
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define Led_light 25
